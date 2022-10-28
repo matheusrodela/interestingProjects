@@ -64,7 +64,7 @@ const booksByCategory = [
 countAuthors();
 
 
-//Transformar a função acima em uma função que ira receber o nome do autor e devolver os livros desse autor.
+//Receber o nome do autor e devolver os livros desse autor.
 function booksByAuthor(searchString){
     let books = [];
 
