@@ -27,7 +27,6 @@ function getScore(score){
 console.log(getScore(78))
 
 
-//Vamos além
 function getAttendance(attendance){
 
     let schooldates = 50
