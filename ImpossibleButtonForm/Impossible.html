@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./Impossible.css">
+    <script src="./Impossible.js" defer></script>
+</head>
+
+<body>
+    <article id="article" >
+
+        <form action="" id="LogIn" name="login">
+            <div id="avatarContainer">
+                <img src="./img_avatar2.png" alt="Avatar">
+            </div>
+
+            <div id="usernameContainer">
+                <label for="userName"><b>Username:</b></label>
+                <input type="text" placeholder="Enter Username" name="UserName" id="UserNameInput" required>
+            </div>
+
+            <div id="passwordContainer">
+                <label for="password"><b>Password:</b></label>
+                <input type="password" placeholder="Enter Password" name="password" id="passwordInput" required>
+            </div>
+
+            <label>
+                <input type="checkbox" checked="checked" name="rememberUser"> Remember me
+            </label>
+
+            <div id="buttonMovingArea">
+                <button class="movingButton" type="submit" onmousemove="">Log In</button> <!--onclick="Alert();"-->
+            </div>
+        </form>
+    
+    </article>
+
+</body>
+
+</html>
